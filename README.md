@@ -1,6 +1,7 @@
 # Projeto de Página Web - Portifólio e Currículo
 ## Resumo
-Esse é um projeto de pagina web utilizando html e css.
+<p>Esse é um projeto de pagina web utilizando html e css.</p>
+<p>Esse é um projeto de pagina web utilizando html e css.</p>
 ## Autor
 Marcus Vinícius Gomes do Val
 ## Contato
