@@ -1,0 +1,23 @@
+
+img{
+
+    height: 300px;
+    top: 200;
+    left: 1030px;
+    border-radius: 10px;
+}
+
+body{
+    margin-top: 150px;
+    margin-left: 350px;
+    margin-right: 100px;
+    margin-bottom: 150px;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.lado_esquerdo{
+    width: 200px;
+}

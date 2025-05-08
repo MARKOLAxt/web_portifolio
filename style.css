@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+
+    /*margin: 0;*/
+    padding: 0;
+
+}
+
+header{
+
+    background-image: url(img/imagemdefundo.jpg);
+    background-repeat:inherit;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+nav{
+
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.botoes_nav{
+
+    height: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 7px;
+
+}
+
+.botao_esquerdo{
+
+    padding: 10px;
+    height: 20px;
+
+}
+
+.botao_direito{
+
+    padding: 10px;
+    height: 20px;
+
+}
+
+body{ 
+
+    background-color: black;
+    color: #F6F6F6;
+    /*width: 100vh;*/
+
+}
+
+main{/*Container principal*/
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10% 15%;
+
+}
+
+section{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 482px;
+    gap: 20px;
+
+}
+
+h1{
+
+    font-size: 36px;
+    color: #f6f6f6;
+    font-family: "krona one";
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+p{
+
+    color: #f6f6f6;
+    font-size: 24px;
+    font-family: "montserrat";
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+a{
+    
+    background-color: #C1463A;
+    
+    color: black;
+    width: 400;
+    padding: 16px;
+    border-radius: 10px;
+    text-decoration: none;
+    justify-content: space-between;
+
+}
+
+img{
+
+    border-radius: 25%;
+    height: 550px;
+    top: 235;
+    left: 1030px;
+
+}
