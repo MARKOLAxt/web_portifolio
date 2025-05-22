@@ -61,7 +61,7 @@ body{
 
 }
 
-main{/*Container principal*/
+.main_container{/*Container principal*/
 
     display: flex;
     align-items: center;
@@ -120,4 +120,11 @@ img{
     top: 235;
     left: 1030px;
 
+}
+
+@media (max-width: 1024px) {
+    
+.main_container{
+    flex-direction:column-reverse ;
+}
 }

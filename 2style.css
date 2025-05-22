@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 
 img{
 
@@ -7,17 +11,31 @@ img{
     border-radius: 10px;
 }
 
-body{
-    margin-top: 150px;
-    margin-left: 350px;
-    margin-right: 100px;
-    margin-bottom: 150px;
+body{  
+    background-color: blanchedalmond;
+ 
+}
+.main_container{
+    margin-top: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 10%;
     background-color: blanchedalmond;
     display: flex;
     flex-direction: row;
-    gap: 100px;
+    align-items:center;
+    justify-content: space-between;
+    gap: 10%;
 }
 
 .lado_esquerdo{
-    width: 200px;
+    width: 70%;
+}
+
+@media (max-width: 1024px) {
+    
+    .main_container{
+        flex-direction:column-reverse ;
+    }
+
 }
